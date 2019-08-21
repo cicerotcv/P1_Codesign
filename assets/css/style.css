@@ -1,4 +1,70 @@
 /* Index styles */
+.index_corpo {
+    padding-bottom: 250px;
+    height: 1000px
+}
+
+.navbar .navbar_links, .navbar_items, .logo{
+    display: inline;
+}
+
+.navbar {
+    position: relative;
+    background-color: red;
+    padding: 25px 25%
+}
+
+
+.navbar_items {
+    display: inline;
+    margin-left: 100px;
+    margin-right: 10px;
+    right: 0px
+}
+
+.navbar_links a {
+    background-color: blueviolet;
+    color: white;
+    margin: 10px 10px;
+    float: right;
+}
+
+.content {
+    position: relative;
+    justify-content: baseline;
+    top: 250px; 
+    margin: 0px 25%;
+    width: 50%
+}
+
+
+.tittle_items {
+    text-align: center;
+}
+.tittle {
+    text-align: center;
+}
+.tittle_image {
+    width: 80%;
+    margin: 50px 0px;
+    align-self: center;
+}
+
+.go_to_pages ul, .go_to_pages p {
+    display: inline-block
+}
+.go_to_pages p {
+    width: 50%;
+}
+.go_to_pages ul {
+    float: right;
+    justify-content: center;
+}
+.go_to_pages ul li{
+    display: inline;
+    margin: 10px;
+    align-content: center
+}
 
 /* Categorias styles */
 
