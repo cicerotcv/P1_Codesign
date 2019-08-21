@@ -71,7 +71,16 @@
 .go_to_pages ul li{
     display: inline;
     margin: 10px;
+    border: solid;
+    border-color: blueviolet;
     align-content: center
+}
+.go_to_pages ul li a {
+    height: 30px;
+    background-color: blueviolet;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
 }
 
 /* Categorias styles */
