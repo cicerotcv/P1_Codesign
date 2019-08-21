@@ -11,15 +11,15 @@
 .navbar {
     position: relative;
     background-color: red;
-    padding: 25px 25%
+    padding: 25px 50px;
 }
 
 
 .navbar_items {
     display: inline;
     margin-left: 100px;
-    margin-right: 10px;
-    right: 0px
+    margin-right: 50px;
+    right: 0px;
 }
 
 .navbar_links a {
