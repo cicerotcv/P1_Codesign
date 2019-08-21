@@ -3,3 +3,67 @@
 /* Categorias styles */
 
 /* Projeto styles */
+
+/*.corpo_projeto{
+	margin-top: 200px;
+  	margin-bottom: 100px;
+  	margin-right: 25px;
+ 	margin-left: 25px;
+	position: absolute;
+}*/
+
+.coluna_esquerda{
+	position: absolute;
+	top: 200px;
+	left: 25px;
+	width:610px;
+}
+
+.imagem_girafa{
+	height: 600px;
+	margin: 25px;
+	position: relative;
+}
+
+.secao_projeto{
+	font-size: 40px;
+	margin:25px;
+	position: relative;
+
+}
+
+.texto_projeto{
+	font-size: 20px;
+	margin:25px;
+	position: relative;
+}
+
+.coluna_direita{
+	position: absolute;
+	top: 200px;
+	left: 640px;
+	width:610px;
+}
+
+.projeto_titulo{
+	color: black;
+	margin:25px;
+	padding-bottom: 150px;
+	position: relative;
+	font-size: 80px;
+	position: relative;
+}
+
+.descricao_projeto{	
+	font-size: 40px;
+	margin:25px;
+	position: relative;
+}
+
+.descricao_texto_projeto{
+	font-size: 20px;
+	margin:25px;
+	position: relative;
+	padding-bottom: 20px;
+
+}
