@@ -1,120 +1,237 @@
+/* Index styles */
+
 .navbar .navbar_links, .navbar_items, .logo{
-    display: inline;
+	display: inline;
 }
 
 .navbar {
-    position: relative;
-    background-color: red;
-    padding: 25px 50px;
+	position: relative;
+	background-color: red;
+	padding: 25px 50px;
 }
 
 
 .navbar_items {
-    display: inline;
-    margin-left: 100px;
-    margin-right: 50px;
-    right: 0px;
+	display: inline;
+	margin-left: 100px;
+	margin-right: 50px;
+	right: 0px;
 }
 
 .navbar_links a {
-    font-size: 24px;
-    text-decoration: none;
-    background-color: blueviolet;
-    height: 20px;
-    border: solid 5px;
-    border-radius: 2px;
-    border-color: rgb(153, 48, 250);
-    color: white;
-    margin: 10px 10px;
-    float: right;
+	font-size: 24px;
+	text-decoration: none;
+	background-color: blueviolet;
+	height: 20px;
+	border: solid 5px;
+	border-radius: 2px;
+	border-color: rgb(153, 48, 250);
+	color: white;
+	margin: 10px 10px;
+	float: right;
 }
 
-/* categoria.html */
+.content {
+	position: relative;
+	justify-content: baseline;
+	top: 250px; 
+	margin: 0px 25%;
+	width: 50%
+}
+
+
+.title_items {
+	text-align: center;
+}
+.title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 24px
+}
+.title_image {
+	width: 80%;
+	margin: 50px 0px;
+	align-self: center;
+}
+
+.go_to_pages ul, .go_to_pages p {
+	display: inline-block
+}
+.go_to_pages p {
+	width: 50%;
+}
+.go_to_pages ul {
+	float: right;
+	justify-content: center;
+}
+.go_to_pages ul li{
+	display: inline;
+	margin: 10px;
+	border: solid;
+	border-color: blueviolet;
+	align-content: center
+}
+.go_to_pages ul li a {
+	height: 30px;
+	background-color: blueviolet;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+/* Categorias styles */
 
 .categoria-titulo {
-  position: absolute;
-  top: 90px;
-  width: 1350px;
-  height: 275px;
+	position: absolute;
+	top: 90px;
+	width: 1350px;
+	height: 275px;
 }
 
 .categoria-titulo-imagem {
-  width: 1250px;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  height: 100px;
-  position: relative;
+	width: 1250px;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 100px;
+	position: relative;
 }
 
 .categoria-titulo-texto {
-  font-size: 35px;
-  margin-bottom: 5px;
-  text-align: center;
-  position: relative;
+	font-size: 35px;
+	margin-bottom: 5px;
+	text-align: center;
+	position: relative;
 }
 
 .categoria-texto{
-  text-indent: 75px;
-  text-align: justify;
-  font-size: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 5px;
-  position: relative;
+	text-indent: 75px;
+	text-align: justify;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 5px;
+	position: relative;
 }
 
 .projetos-menu {
-  position: absolute;
-  top: 365px;
-  width: 1350px;
-  height: 550px;
+	position: absolute;
+	top: 365px;
+	width: 1350px;
+	height: 550px;
 }
 
 .projetos-menu-item {
-  margin-left: 50px;
-  margin-bottom: 25px;
-  display: inline-block;
-  position: relative;
-  width: 600px;
-  height: 250px;
+	margin-left: 50px;
+	margin-bottom: 25px;
+	display: inline-block;
+	position: relative;
+	width: 600px;
+	height: 250px;
 }
 
 .projetos-menu-item-image {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 200px;
-  height: 250px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 200px;
+	height: 250px;
 }
 
 .projetos-menu-item-caixa {
-  position: absolute;
-  text-align: center;
-  left: 200px;
-  top: 0px;
-  width: 398px;
-  height: 233px;
-  border-style: solid;
-  border-width: 1px;
-  padding-top: 15px;
+	position: absolute;
+	text-align: center;
+	left: 200px;
+	top: 0px;
+	width: 398px;
+	height: 233px;
+	border-style: solid;
+	border-width: 1px;
+	padding-top: 15px;
 }
 
 .projetos-menu-titulo-texto {
-  font-size: 25px;
-  margin-bottom: 5px;
-  text-align: center;
-  position: relative;
+	font-size: 25px;
+	margin-bottom: 5px;
+	text-align: center;
+	position: relative;
 }
 
 .projetos-menu-item-text {
-  font-size: 20px;
-  text-align: justify;
-  position: relative;
-  width: 360px;
-  height: 250px;
-  margin-top: 14px;
-  margin-left: 19px;
-  margin-right: 19px;
+	font-size: 20px;
+	text-align: justify;
+	position: relative;
+	width: 360px;
+	height: 250px;
+	margin-top: 14px;
+	margin-left: 19px;
+	margin-right: 19px;
+}
+
+
+/* Projeto styles */
+
+/*.corpo_projeto{
+margin-top: 200px;
+margin-bottom: 100px;
+margin-right: 25px;
+margin-left: 25px;
+position: absolute;
+}*/
+
+.coluna_esquerda{
+	position: absolute;
+	top: 200px;
+	left: 25px;
+	width:610px;
+}
+
+.imagem_girafa{
+	height: 600px;
+	margin: 25px;
+	position: relative;
+}
+
+.secao_projeto{
+	font-size: 40px;
+	margin:25px;
+	position: relative;
+
+}
+
+.texto_projeto{
+	font-size: 20px;
+	margin:25px;
+	position: relative;
+}
+
+.coluna_direita{
+	position: absolute;
+	top: 200px;
+	left: 640px;
+	width:610px;
+}
+
+.projeto_titulo{
+	color: black;
+	margin:25px;
+	padding-bottom: 150px;
+	position: relative;
+	font-size: 80px;
+	position: relative;
+}
+
+.descricao_projeto{	
+	font-size: 40px;
+	margin:25px;
+	position: relative;
+}
+
+.descricao_texto_projeto{
+	font-size: 20px;
+	margin:25px;
+	position: relative;
+	padding-bottom: 20px;
+
 }
