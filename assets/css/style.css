@@ -1,30 +1,31 @@
-.navbar .navbar_links, .navbar_items, .logo{
-	display: inline;
-}
+/* navbar styles */
 
 .navbar {
-	position: relative;
 	background-color: red;
-	padding: 25px 50px;
+	display: flex;
+	min-height: 80px;
+	padding:0 3em;
+	justify-content: space-between;
+	align-items: center
 }
 
+.logo {
+	border: hidden;
+	border-radius: 0.3em 0.7em
+}
 
 .navbar_items {
-	display: inline;
-	margin-left: 100px;
-	margin-right: 50px;
-	right: 0px;
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: 1rem
 }
 
 .navbar_links a {
-	font-size: 24px;
+	font-size: 1.3rem;
 	text-decoration: none;
-	background-color: blueviolet;
-	height: 20px;
-	border: solid 5px;
-	border-radius: 2px;
-	border-color: rgb(153, 48, 250);
+	padding: 0.5em;
+	border:hidden;
+	border-radius: 0.3em 0.7em;
 	color: white;
-	margin: 10px 10px;
-	float: right;
+	background-color: blueviolet;
 }

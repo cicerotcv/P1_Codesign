@@ -1,49 +1,44 @@
 /* Index styles */
 
 .content {
-	position: relative;
-	justify-content: baseline;
-	top: 250px; 
-	margin: 0px 25%;
-	width: 50%
+	display: grid;
+	padding: 2em 3em;
+	grid-gap: 2em;
 }
 
 
 .title_items {
-	text-align: center;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	flex-direction: row;
+
 }
 .title {
 	text-align: center;
 	font-weight: 700;
-	font-size: 24px
+	font-size: 1.5rem;
+	margin: 0.5em;
 }
 .title_image {
-	width: 80%;
-	margin: 50px 0px;
-	align-self: center;
+	width: 100%;
+	max-width: 762px;
 }
 
-.go_to_pages ul, .go_to_pages p {
-	display: inline-block
+.go_to_pages {
+	display: grid;
+	grid-gap: 1em;
+	grid-template-columns: 7fr 3fr
 }
+
 .go_to_pages p {
-	width: 50%;
 }
+
 .go_to_pages ul {
-	float: right;
-	justify-content: center;
 }
+
 .go_to_pages ul li{
-	display: inline;
-	margin: 10px;
-	border: solid;
-	border-color: blueviolet;
-	align-content: center
 }
+
 .go_to_pages ul li a {
-	height: 30px;
-	background-color: blueviolet;
-	font-size: 20px;
-	color: white;
-	text-decoration: none;
 }
