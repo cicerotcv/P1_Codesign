@@ -1,12 +1,22 @@
-/* Projeto styles */
+.corpo_projeto{
+	grid-template-columns: 1fr 1fr;
+	
+}
 
-/*.corpo_projeto{
-margin-top: 200px;
-margin-bottom: 100px;
-margin-right: 25px;
-margin-left: 25px;
-position: absolute;
-}*/
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------Código Antigo-------------------------------
+.corpo_projeto{
+
+}
 
 .coluna_esquerda{
 	position: absolute;
@@ -63,3 +73,5 @@ position: absolute;
 	padding-bottom: 20px;
 
 }
+*/
+
