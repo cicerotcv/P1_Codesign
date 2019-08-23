@@ -4,26 +4,28 @@
 	background-color: red;
 	display: flex;
 	min-height: 80px;
-	padding:0 2em;
+	padding:0 3em;
 	justify-content: space-between;
 	align-items: center
 }
 
-.navbar .navbar_links, .navbar_items {
-	display: flex;
+.logo {
+	border: hidden;
+	border-radius: 0.3em 0.7em
 }
 
 .navbar_items {
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: 1rem
 }
 
 .navbar_links a {
-	font-size: 24px;
+	font-size: 1.3rem;
 	text-decoration: none;
-	background-color: blueviolet;
-	height: 20px;
-	border: solid 5px;
-	border-radius: 2px;
-	border-color: rgb(153, 48, 250);
+	padding: 0.5em;
+	border:hidden;
+	border-radius: 0.3em 0.7em;
 	color: white;
-	margin: 10px 10px;
+	background-color: blueviolet;
 }
