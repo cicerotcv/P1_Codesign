@@ -1,0 +1,30 @@
+.navbar .navbar_links, .navbar_items, .logo{
+	display: inline;
+}
+
+.navbar {
+	position: relative;
+	background-color: red;
+	padding: 25px 50px;
+}
+
+
+.navbar_items {
+	display: inline;
+	margin-left: 100px;
+	margin-right: 50px;
+	right: 0px;
+}
+
+.navbar_links a {
+	font-size: 24px;
+	text-decoration: none;
+	background-color: blueviolet;
+	height: 20px;
+	border: solid 5px;
+	border-radius: 2px;
+	border-color: rgb(153, 48, 250);
+	color: white;
+	margin: 10px 10px;
+	float: right;
+}
