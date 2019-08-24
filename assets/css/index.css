@@ -37,10 +37,7 @@ body .content {
 .go_to_pages {
 	grid-column: 2;
 	grid-row: 2;
-	display: flex; 
-	justify-content: space-between;
-	align-items: flex-start;
-	flex-wrap: wrap;
+	display: grid; 
 }
 
 .go_to_pages p {
