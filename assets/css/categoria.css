@@ -1,90 +1,84 @@
-
 /* Categorias styles */
-
 .categoria-titulo {
-	position: absolute;
-	top: 90px;
-	width: 1350px;
-	height: 275px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction:column;
+  margin-top: 1rem;
+  height: 100%;
+  padding: 1.5rem;
 }
 
 .categoria-titulo-imagem {
-	width: 1250px;
-	margin-right: 50px;
-	margin-left: 50px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	height: 100px;
-	position: relative;
+  width: 50%;
+  height: 50%;
 }
 
 .categoria-titulo-texto {
-	font-size: 35px;
-	margin-bottom: 5px;
-	text-align: center;
-	position: relative;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .categoria-texto{
-	text-indent: 75px;
-	text-align: justify;
-	font-size: 20px;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-bottom: 5px;
-	position: relative;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .projetos-menu {
-	position: absolute;
-	top: 365px;
-	width: 1350px;
-	height: 550px;
+  margin-top: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .projetos-menu-item {
-	margin-left: 50px;
-	margin-bottom: 25px;
-	display: inline-block;
-	position: relative;
-	width: 600px;
-	height: 250px;
+  background-color: white;
+  margin-top: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%
 }
 
 .projetos-menu-item-image {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 200px;
-	height: 250px;
+  width: 10rem;
+  height: 12rem;
 }
 
 .projetos-menu-item-caixa {
-	position: absolute;
-	text-align: center;
-	left: 200px;
-	top: 0px;
-	width: 398px;
-	height: 233px;
-	border-style: solid;
-	border-width: 1px;
-	padding-top: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 1rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 .projetos-menu-titulo-texto {
-	font-size: 25px;
-	margin-bottom: 5px;
-	text-align: center;
-	position: relative;
+  background-color: white;
+  margin-top: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%
 }
 
 .projetos-menu-item-text {
-	font-size: 20px;
-	text-align: justify;
-	position: relative;
-	width: 360px;
-	height: 250px;
-	margin-top: 14px;
-	margin-left: 19px;
-	margin-right: 19px;
+  background-color: white;
+  margin-top: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%
 }

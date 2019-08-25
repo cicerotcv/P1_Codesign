@@ -37,39 +37,42 @@ body .content {
 .go_to_pages {
 	grid-column: 2;
 	grid-row: 2;
-	display: flex; 
-	justify-content: space-between;
-	align-items: flex-start;
+	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center
 }
 
 .go_to_pages p {
 	color:rgb(30, 255, 0);
 	font-family: 'Courier New', Courier, monospace;
 	font-size: 1em;
+	flex-basis: 50%;
+	align-items: flex-start;
 }
 
 .go_to_pages ul {
 	display: flex;
-	width: 1fr;
-	justify-content: space-around;
-	justify-self: right;
+	flex-flow: row;
+	flex-basis: 40%;
+	align-items: center;
+	justify-content: space-between
 }
 
 .go_to_pages ul li{
-	display: flex;
-	align-items:center;
-	
+	background-color: blueviolet;
+	border: hidden 0.25em;
+	border-radius: 0.25em;
+	text-align: center;
+	flex-basis: 45%
+
 }
+
 /* preciso deixar a fonte com tamanho relativo à tela */
 /* não consigo deixar os botões alinhados com o texto da forma representada
 na pagina para desktop */
 .go_to_pages ul li a {
-	margin: 1em;
-	border: solid 1em;
-	border-radius: 1em;
 	border-color: blueviolet;
-	background-color: blueviolet;
 	color: white;
 	font-family: 'Courier New', Courier, monospace;
 	text-decoration: none;
