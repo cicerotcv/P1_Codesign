@@ -1,4 +1,5 @@
 .container_project{
+	background-color: black;
 	display: grid;
 	grid-template-columns: 50% 1fr;
 	grid-gap: 1rem;
@@ -13,7 +14,7 @@
 
 .item_imagem{
 	width: fit-content;
-	background-color: aqua;
+	background-color: black;
 	padding: 1rem;
 	margin: 1rem;
 	flex-grow: 1;
@@ -29,7 +30,7 @@
 }
 
 .item_equipe{
-	background-color: red;
+	background-color: black;
 	padding: 1rem;
 	margin: 1rem;
 	flex-grow: 1;
@@ -41,7 +42,7 @@
 }
 
 .item_titulo{
-	background-color: purple;	
+	background-color: black;	
 	padding: 1rem;
 	margin: 1rem;
 	flex-grow: 1;
@@ -53,7 +54,7 @@
 }
 
 .item_title_project{
-	background-color:orangered;
+	background-color: black;
 	padding: 1rem;
 	margin: 1rem;
 	flex-grow: 1;
@@ -64,7 +65,7 @@
 	grid-column-end: 2;
 }
 .item_descricao{
-	background-color: blue;
+	background-color: black;
 	padding: 1rem;
 	margin: 1rem;
 	flex-grow: 1;
@@ -76,8 +77,11 @@
 	align-items: flex-end;
 }
 
+.title {
+	font-size: 1.75rem;
+}
 .item_local{
-	background-color: yellow;
+	background-color: black;
 	padding: 1rem;
 	margin: 1rem;
 	flex-grow: 1;
@@ -88,7 +92,7 @@
 	grid-column-end: 2;}
 
 	.item_recursos{
-		background-color: green;
+		background-color: black;
 		padding: 1rem;
 		margin: 1rem;
 		flex-grow: 1;
@@ -97,16 +101,4 @@
 		grid-row-end: 5;
 		grid-column-start: 2;
 		grid-column-end: 2;
-	}
-
-	p{
-		font-size: 1.5rem;
-	}
-
-	h1{
-		font-size: 4rem;
-	}
-
-	h2{
-		font-size: 2rem;
 	}
