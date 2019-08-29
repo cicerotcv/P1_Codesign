@@ -1,14 +1,11 @@
 /* Index styles */
-html {
-	background-color: black;
-}
 
-body .content {
+.content {
 	display: grid;
 	background-color: black;
 	grid-template-columns: 1fr minmax(360px,720px) 1fr;
 	grid-template-rows: 2fr 1fr;
-	grid-gap: 1em
+	grid-gap: 1em;
 }
 
 
@@ -22,16 +19,15 @@ body .content {
 
 }
 .title {
+	font-size: 2em;
 	text-align: center;
-	font-family: 'Courier New', Courier, monospace;
-	color: rgb(30, 255, 0);
-	font-size: 1.5rem;
-	margin: 0.5em;
 }
 .title_image {
 	width: 100%;
 	max-width: 720px;
-	
+	margin: 0.5em;
+	box-shadow: 0px 0px 1em red;
+	border-radius: 0.25em; 
 }
 
 .go_to_pages {
@@ -43,9 +39,11 @@ body .content {
 	align-items: center
 }
 
-.go_to_pages p {
-	color:rgb(30, 255, 0);
-	font-family: 'Courier New', Courier, monospace;
+.corpo {
+	box-shadow: 0px 0px 3px red;
+	border: hidden;
+	border-radius: 1em;
+	padding: 1em;
 	font-size: 1em;
 	flex-basis: 50%;
 	align-items: flex-start;
@@ -59,22 +57,3 @@ body .content {
 	justify-content: space-between
 }
 
-.go_to_pages ul li{
-	background-color: blueviolet;
-	border: hidden 0.25em;
-	border-radius: 0.25em;
-	text-align: center;
-	flex-basis: 45%
-
-}
-
-/* preciso deixar a fonte com tamanho relativo à tela */
-/* não consigo deixar os botões alinhados com o texto da forma representada
-na pagina para desktop */
-.go_to_pages ul li a {
-	border-color: blueviolet;
-	color: white;
-	font-family: 'Courier New', Courier, monospace;
-	text-decoration: none;
-	text-align: center;
-}

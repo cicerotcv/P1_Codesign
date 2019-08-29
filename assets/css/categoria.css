@@ -8,7 +8,9 @@
   height: 100%;
   padding: 1.5rem;
 }
-
+.background {
+  background-color: black
+}
 .categoria-titulo-imagem {
   width: 50%;
   height: 50%;
@@ -36,7 +38,6 @@
 }
 
 .projetos-menu-item {
-  background-color: white;
   margin-top: 1rem;
   padding-right: 1rem;
   display: flex;
@@ -62,23 +63,21 @@
 }
 
 .projetos-menu-titulo-texto {
-  background-color: white;
   margin-top: 1rem;
   padding-right: 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100%
+  height: 100%;
 }
 
 .projetos-menu-item-text {
-  background-color: white;
   margin-top: 1rem;
   padding-right: 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100%
+  height: 100%;
 }

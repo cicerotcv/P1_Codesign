@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab|Roboto+Condensed&display=swap');
+
 /* navbar styles */
 
 .navbar {
@@ -31,9 +33,48 @@
 	padding:0.2em;
 	font-size: 1.3rem;
 	text-decoration: none;
-	background-color: green;
+	background-color: #dd0101;
+	font-family: 'Roboto Condensed';
 	border: solid;
-	border-color: green;
+	border-color: #a30000;
 	border-radius: 0.3em 0.7em;
 	color: white;
+}
+
+.title {
+	font-family: 'Hepta Slab', sans-serif;
+	color: rgb(255, 42, 42);
+	text-shadow: 0px 0px 0.5rem red;
+	font-size: 1.1rem;
+	margin: 0.5em;
+}
+
+.corpo {
+	text-shadow: 0px 0px 0.5rem red;
+	color: rgb(255, 42, 42);
+	letter-spacing: 0.05em;
+	font-family: 'Roboto Condensed';
+}
+
+::selection{
+	color: rgb(4, 255, 0);
+	background-color: black;
+	text-shadow:  0px 0px 0.5rem rgb(0, 255, 0);
+	box-shadow: 0px 0px 3px red;
+}
+
+.button {
+	flex-basis: 45%;
+	height: fit-content;
+	min-height: 2.5em;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+	font-family: 'Roboto Condensed';
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: flex;
+	border: hidden 0.25em;
+	border-radius: 0.1em;	
 }
