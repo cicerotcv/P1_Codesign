@@ -7,9 +7,11 @@
   height: 100%;
   padding-top: 1.5em;
 }
+
 .background {
-  background-color: black
+  background-color: #F2F2F2
 }
+
 .categoria-titulo-imagem {
   width: 50%;
   height: 50%;
@@ -68,6 +70,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  text-decoration: none;
 }
 
 .projetos-menu-item-text {
