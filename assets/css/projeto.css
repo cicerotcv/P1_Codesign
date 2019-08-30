@@ -1,6 +1,10 @@
+p{
+	text-align: justify;
+	text-justify: inter-word;
+}
 .container_project{
-	background-image: url(./assets/img/pattern.jpeg);
-	background-repeat: repeat-y;
+	background-color: #F2F2F2;
+	background: repeat;
 	display: grid;
 	grid-template-columns: 50% 1fr;
 	grid-gap: 1rem;
@@ -42,6 +46,7 @@
 
 .item_titulo{
 	padding: 1rem;
+	color: #A6836F;
 	margin: 1rem;
 	flex-grow: 1;
 	flex-shrink: 1;
@@ -51,16 +56,6 @@
 	grid-column-end: 1;
 }
 
-.item_title_project{
-	padding: 1rem;
-	margin: 1rem;
-	flex-grow: 1;
-	flex-shrink: 1;
-	grid-row-start: 1;
-	grid-row-end: 2;
-	grid-column-start: 2;
-	grid-column-end: 2;
-}
 .item_descricao{
 	padding: 1rem;
 	margin: 1rem;
@@ -75,6 +70,23 @@
 
 .title {
 	font-size: 1.75rem;
+	color: #A6836F;
+}
+
+.main_title{
+	font-size: 5rem;
+	color: #A6836F;
+}
+.item_title_project{
+	padding: 1rem;
+	margin: 1rem;
+	font-size: 4rem;
+	flex-grow: 1;
+	flex-shrink: 1;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 2;
 }
 .item_local{
 	padding: 1rem;
