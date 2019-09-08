@@ -13,7 +13,9 @@
 }
 
 .call-figure {
-  width: 33%;
+  width: 60%;
+  font-family:  'Hepta Slab', sans-serif;
+  color: #A6836F;
 }
 
 .call-image {
@@ -21,21 +23,20 @@
 }
 
 .call-title {
-  display: none;
   font-family:  'Hepta Slab', sans-serif;
+  font-size: 2.5rem;
   color: #A6836F;
+  margin-top: 1rem;
 }
 
 .call-text {
-  font-family: 'Roboto Condensed';
-  text-align: center;
+  font-family: 'Roboto Condensed', serif;
+  text-align: justify;
   color: #04ADBF;
-  width: 66%;
+  width: 69%;
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
-
-
 
 .project-list {
   margin-top: 4rem;
@@ -81,17 +82,13 @@
 
 .project-body {
   padding: 0.2rem;
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed', serif;
   color: #04ADBF;
   text-align: justify;
   text-indent: 1.5rem;
   letter-spacing: 0.05em;
   margin-top: 0.3rem;
 }
-
-
-
-
 
 @media (max-width: 68rem) {
   .project-list {
@@ -106,13 +103,9 @@
     width: 100%;
   }
 
-  .call-image {
-    display: none;
-  }
-
   .call-title {
     text-align: center;
-    font-family: 'Lora', serif;
+    font-family:  'Hepta Slab', sans-serif;
     font-size: 2rem;
     display: block;
   }
