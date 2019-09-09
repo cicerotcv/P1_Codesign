@@ -90,13 +90,6 @@
 }
 
 @media (max-width: 68rem) {
-  .project-list {
-    margin-top: 2rem;
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 49rem) {
   .main {
     padding: 2rem;
   }
