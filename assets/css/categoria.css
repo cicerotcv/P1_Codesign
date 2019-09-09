@@ -93,7 +93,6 @@
   .main {
     padding: 2rem;
   }
-
   .call-title {
     text-align: center;
     font-family:  'Hepta Slab', sans-serif;
@@ -102,7 +101,6 @@
     margin-top: 1rem;
     font-size: 4rem;
   }
-
   .call-text {
     font-family: 'Roboto Condensed', serif;
     text-align: justify;
@@ -111,39 +109,30 @@
     margin: 1rem;
     font-size: 2rem;
   }
-
   .project-list {
     margin-top: 2rem;
     grid-template-columns: 1fr;
   }
-
   .project-description {
     margin-left: 1.5rem;
   }
-
-
   .project-item {
     padding: .5rem;
     display: flex;
   }
-
   .project-image {
     width: 16rem;
     height: 24rem;
     border-radius: .5rem;
   }
-
   .project-link {
     text-decoration: none;
     color: #A6836F;
   }
-
   .project-link:hover {
     text-decoration: none;
     font-family:  'Hepta Slab', sans-serif;
     color: #04ADBF;
   }
-
 }
-
 
