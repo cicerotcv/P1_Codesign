@@ -13,6 +13,10 @@
        <li>Luiz Felipe Lazzaron</li>
        <li>Marcos Vinícius da Silva</li>
    </ul>
-   <li>Turma: 2B</li>
+   <li>Professores:</li>
+   <ul>
+      <li>Marcelo Hashimoto</li>
+      <li>Lucas Falção Artacho</li>
+   </ul>
    <p></p>
 </ol>
