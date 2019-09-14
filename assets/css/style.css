@@ -106,7 +106,7 @@
 	
 	.logo img {
 		border: hidden;
-		height: 5em;
+		height: 3rem;
 		border-radius: 0.3em 0.7em
 	}
 	
@@ -116,12 +116,15 @@
 		display: flex;
 		flex-wrap: nowrap;
 		align-items: center;
-		justify-content: right;
+		/* justify-content: right; */
 	}
-	
+	.navbat_links {
+		width: fit-content;
+	}
 	.navbar_links a {
-		font-size: 3rem;
+		font-size: 2rem;
 		border-radius: 0.2em 0.4em;
+
 	}
 	
 	/* General Styles */
