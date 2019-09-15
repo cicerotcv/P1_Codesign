@@ -3,7 +3,7 @@
 	display: grid;
 	background-color: #F2F2F2;
 	grid-template-columns: 1fr 80% 1fr;
-	grid-template-rows: 2fr 1fr;
+	grid-template-rows: fit-content 1fr;
 	grid-gap: 1em;
 }
 
@@ -77,18 +77,22 @@
 @media screen and (max-width: 640px) {
 
 	.title_items {
-
+		display: flex;
+		flex-direction: column;
+		justify-content: left
 	}
 	.title {
 		margin-left: 0px;
 		margin-right: 0px;
-		width: 100%
+		width: 100%;
+		font-size: 2em;
 	}
 	.title_image{
 		margin: 0px;
 		width: 100%;
 	}
 	.content {
+		min-height: 100vh
 	}
 
 	.corpo {
