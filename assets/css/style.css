@@ -66,24 +66,6 @@
 }
 
 
-.button {
-	flex-basis: 45%;
-	height: fit-content;
-	min-height: 2.5em;
-	justify-content: center;
-	align-items: center;
-	background-color: #04ADBF;
-	font-family: 'Roboto Condensed';
-	color: white;
-	text-decoration: none;
-	text-align: center;
-	display: flex;
-	border: hidden 0.25em;
-	border-radius: 0.1em;
-	padding-left: 0.5em;	
-	padding-right: 0.5em;	
-}
-
 
 
 @media (max-width:640px){
@@ -92,9 +74,6 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 1em;
-	}
-	
-	.logo {
 	}
 	
 	.logo img {
@@ -119,38 +98,13 @@
 	/* General Styles */
 	
 	.title {
-		font-size: 3em;
+		font-size: 3rem;
+		text-align-last: center
 	}
 	
 	.corpo {
-		/* text-shadow: 0px 0px 0.5rem red; */
 		letter-spacing: 0.05em;
-		font-size: 2em;
+		font-size: 2rem;
 	}
 	
-	
-	.button {
-		flex-basis: 45%;
-		height: fit-content;
-		min-height: 2.5em;
-		justify-content: center;
-		align-items: center;
-		background-color: #04ADBF;
-		font-family: 'Roboto Condensed';
-		color: white;
-		text-decoration: none;
-		text-align: center;
-		display: flex;
-		border: hidden 0.25em;
-		border-radius: 0.1em;
-		padding-left: 0.5em;	
-		padding-right: 0.5em;	
-	}
-	
-
-	
-
-
-
-
 }
