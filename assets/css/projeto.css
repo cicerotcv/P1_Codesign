@@ -17,6 +17,7 @@ p{
 	font-size: 1.5rem;
 	text-align: center;
 	min-width: 50rem;
+	width: 100%;
 }
 
 .item_imagem{
@@ -111,7 +112,7 @@ p{
    grid-column-end: 2;
  }
 
- @media (max-width: 68rem) {
+ @media screen and (max-width: 640px) {
    .image_project{
     width: 80%;
   }
