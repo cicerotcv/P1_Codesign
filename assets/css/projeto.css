@@ -1,6 +1,5 @@
 /* Projetos*/
-p {      /* Todas as referências devem ser 
-	direcionadas a classes segundo as regras */
+p{
 	text-align: justify;
 	text-justify: inter-word;
 	color: #BFA393; 
@@ -77,7 +76,7 @@ p {      /* Todas as referências devem ser
 }
 
 .main_title{
-	font-size: 5rem;
+	font-size: 3rem;
 	color: #A6836F;
 }
 .item_title_project{
@@ -139,6 +138,6 @@ p {      /* Todas as referências devem ser
 
   .main_title{
     text-align: center;
-    font-size:5rem;
+    font-size:3rem;
   }
 }

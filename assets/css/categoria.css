@@ -76,7 +76,6 @@
 .project-link:hover {
   text-decoration: none;
   font-family:  'Hepta Slab', sans-serif;
-  font-size: 1.3rem;
   color: #04ADBF;
 }
 
@@ -137,11 +136,6 @@
     text-decoration: none;
     color: #A6836F;
     font-size: 2rem;
-  }
-  .project-link:hover {
-    text-decoration: none;
-    font-family:  'Hepta Slab', sans-serif;
-    color: #04ADBF;
   }
   .project-body {
     font-size: 2em;
