@@ -1,5 +1,6 @@
 /* Projetos*/
-p{
+p {      /* Todas as referências devem ser 
+	direcionadas a classes segundo as regras */
 	text-align: justify;
 	text-justify: inter-word;
 	color: #BFA393; 
@@ -17,7 +18,6 @@ p{
 	font-size: 1.5rem;
 	text-align: center;
 	min-width: 50rem;
-	width: 100%;
 }
 
 .item_imagem{
@@ -112,7 +112,7 @@ p{
    grid-column-end: 2;
  }
 
- @media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
    .image_project{
     width: 80%;
   }
