@@ -5,6 +5,8 @@
 	grid-template-columns: 1fr 80% 1fr;
 	grid-template-rows: fit-content 1fr;
 	grid-gap: 1em;
+	min-height: 100vh;
+	padding-bottom: 3em;
 }
 
 
@@ -85,14 +87,15 @@
 		margin-left: 0px;
 		margin-right: 0px;
 		width: 100%;
-		font-size: 2em;
+		/* font-size: 3em; */
 	}
 	.title_image{
 		margin: 0px;
 		width: 100%;
 	}
 	.content {
-		min-height: 100vh
+		min-height: 100vh;
+		padding-bottom: 3em;
 	}
 
 	.corpo {

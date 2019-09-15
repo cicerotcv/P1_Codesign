@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Hepta+Slab|Roboto+Condensed&display=swap');
 
-
-
-
-
 /* navbar styles */
 
 .navbar {
@@ -67,7 +63,7 @@
 
 
 
-@media (max-width:640px){
+@media screen and (max-width: 640px) {
 	.navbar {
 		display: flex;
 		align-items: center;
