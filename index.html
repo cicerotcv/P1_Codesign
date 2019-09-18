@@ -16,8 +16,8 @@
   <header class="navbar">
     <a href="index.html" class="logo"><img src="https://picsum.photos/60/35?random" alt="Logo"></a>
     <ul class="navbar_items">
-      {{#each category}}
-      <li class="navbar_links"><a href="categoria.html">{{categoria}}</a></li>
+      {{#each fisicos}}
+      <li class="navbar_links"><a href="categoria.html">{{@key}}</a></li>
       {{/each}}
     </ul>
   </header>
@@ -36,9 +36,9 @@
         por Robert Kahn estão disponíveis aqui!
       </p>
 
-      <ul>
-        {{#each category}}
-        <li> <a class="button" href="categoria.html">{{#this.categoria}}</a> </li>
+      <ul class="category-buttons">
+        {{#each fisicos}}
+        <li> <a class="button" href="categoria.html">{{@key}}</a> </li>
         {{/each}}
       </ul>
     </div>
