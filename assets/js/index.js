@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   db.download('/', function(data) {
     context = data
-    coDesReplace('.menu-list', context)
-    coDesReplace('.section-list', context)
+    coDesReplace('.navbar_items', context)
   })
 })

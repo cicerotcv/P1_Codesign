@@ -3,9 +3,13 @@
 
 <head>
   <title>Portifólio de projetos</title>
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/index.js"></script>
   <link href="assets/css/reset.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/index.css" rel="stylesheet">
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/index.js"></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
@@ -14,8 +18,9 @@
   <header class="navbar">
     <a href="index.html" class="logo"><img src="https://picsum.photos/60/35?random" alt="Logo"></a>
     <ul class="navbar_items">
-      <li class="navbar_links"><a href="categoria.html">Físicos</a></li>
-      <li class="navbar_links"><a href="categoria.html">Virtuais</a></li>
+      {{#each category}}
+      <li class="navbar_links"><a href="categoria.html">{{#this.categoria}}</a></li>
+      {{/each}}
     </ul>
   </header>
 
@@ -34,8 +39,9 @@
       </p>
 
       <ul>
-        <li> <a class="button" href="categoria.html"> Projetos Físicos </a> </li>
-        <li> <a class="button" href="categoria.html"> Projetos Virtuais </a> </li>
+        {{#each category}}
+        <li> <a class="button" href="categoria.html">{{#this.categoria}}</a> </li>
+        {{/each}}
       </ul>
     </div>
 
