@@ -1,12 +1,7 @@
 /* Projetos*/
-p{
-	text-align: justify;
-	text-justify: inter-word;
-	color: #BFA393; 
-}
+
 .container_project{
 	background-color: #F2F2F2;
-	background: repeat;
 	display: grid;
 	grid-template-columns: 50% 1fr;
 	grid-gap: 1rem;
@@ -14,13 +9,15 @@ p{
 	grid-auto-flow: row;
 	align-items: flex-start;
 	flex-direction:row;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	text-align: center;
-	min-width: 50rem;
+	width: 80%;
+	padding: 0px 10%;
 }
 
 .item_imagem{
 	width: fit-content;
+	background-color: #F2F2F2;
 	padding: 1rem;
 	margin: 1rem;
 	flex-grow: 1;
@@ -126,7 +123,9 @@ p{
     flex-direction:row;
     font-size: 1.5rem;
     text-align: center;
-    min-width: 10rem;
+	/* min-width: 10rem; */
+	width: 100%;
+	padding:0px;
   }
 
   .title {
