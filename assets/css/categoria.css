@@ -107,6 +107,7 @@
 
   .call-title {
     text-align: center;
+    font-family: 'Lora', serif;
     font-size: 2rem;
     display: block;
   }
@@ -120,3 +121,34 @@
   }
 }
 
+@media (max-width: 68rem) {
+  .project-list {
+    margin-top: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (max-width: 49rem) {
+  .call-figure {
+    width: 100%;
+  }
+
+  .call-image {
+    display: none;
+  }
+
+  .call-title {
+    text-align: center;
+    font-size: 2rem;
+    display: block;
+  }
+
+  .call-text {
+    width: 100%;
+  }
+
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+}
