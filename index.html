@@ -16,7 +16,7 @@
   <header class="navbar">
     <a href="index.html" class="logo"><img src="https://picsum.photos/60/35?random" alt="Logo"></a>
     <ul class="navbar_items">
-      {{#each fisicos}}
+      {{#each portfolio}}
       <li class="navbar_links"><a href="categoria.html">{{@key}}</a></li>
       {{/each}}
     </ul>
@@ -37,7 +37,7 @@
       </p>
 
       <ul class="category-buttons">
-        {{#each fisicos}}
+        {{#each portfolio}}
         <li> <a class="button" href="categoria.html">{{@key}}</a> </li>
         {{/each}}
       </ul>
