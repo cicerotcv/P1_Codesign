@@ -17,7 +17,7 @@
     <a href="index.html" class="logo"><img src="https://picsum.photos/60/35?random" alt="Logo"></a>
     <ul class="navbar_items">
       {{#each portfolio}}
-      <li class="navbar_links"><a href="categoria.html">{{@key}}</a></li>
+      <li class="navbar_links"><a href="categoria.html?categoria={{@key}}">{{@key}}</a></li>
       {{/each}}
     </ul>
   </header>
@@ -25,7 +25,7 @@
   <div class="content">
 
     <div class="title_items">
-      <h1 class="title">Projetos desenvolvidos por Robert Kahn</h1>
+      <h1 class="title">Projetos desenvolvidos pelo InsperX</h1>
       <img class="title_image" src="assets/img/imagem_inicio.jpg"
         alt="imagem de um motor de passo na base de uma impressora 3D">
     </div>
@@ -38,7 +38,7 @@
 
       <ul class="category-buttons">
         {{#each portfolio}}
-        <li> <a class="button" href="categoria.html">{{@key}}</a> </li>
+        <li> <a class="button" href="categoria.html?categoria={{@key}}">{{@key}}</a> </li>
         {{/each}}
       </ul>
     </div>

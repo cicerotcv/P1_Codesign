@@ -27,71 +27,27 @@
       <figure class="call-figure">
         <img class="call-image" src="assets/img/fisicos_1.png" alt="Projetando">
       </figure>
-      <h1 class="call-title">{{this.portfolio}}</h1>
+      <h1 class="call-title">{{categoria}}</h1>
       <p class="call-text">
-        Nesta página estão disponíveis os projetos físicos do primeiro semestre de Engenharia.
+        Nesta página estão disponíveis os {{categoria}} do primeiro semestre de Engenharia.
       </p>
     </div>
     <ul class="project-list">
+      {{#each projetos}}
       <li class="project-item">
         <figure class="project-cover">
-          <img class="project-image" src="assets/img/girafa.png" alt="Giraffe Lamp">
+          <img class="project-image" src="assets/img/{{this.imagem}}" alt="{{this.titulo}}">
         </figure>
         <div class="project-description">
           <h2 class="project-title">
-            <a class="project-link" href="projeto.html">Giraffe Lamp</a>
+            <a class="project-link" href="projeto.html?categoria={{../categoria}}&key={{@key}}">{{this.titulo}}</a>
           </h2>
           <p class="project-body">
-            Nesta página está disponível um projeto do primeiro semestre de Engenharia. Lorem ipsum
-            vel gravida adipiscing ante nibh fringilla, porta nostra egestas accumsan aenean dictumst odio ultrices,
-            netus nibh tempor sollicitudin consectetur.
+            {{this.descricao}}
           </p>
         </div>
       </li>
-      <li class="project-item">
-        <figure class="project-cover">
-          <img class="project-image" src="assets/img/estacao.png" alt="Weather Station">
-        </figure>
-        <div class="project-description">
-          <h2 class="project-title">
-            <a class="project-link" href="projeto.html">Wheather Station</a>
-          </h2>
-          <p class="project-body">
-            Nesta página está disponível um projeto do primeiro semestre de Engenharia. Lorem ipsum
-            vel gravida adipiscing ante nibh fringilla, porta nostra egestas accumsan aenean dictumst odio ultrices,
-            netus nibh tempor sollicitudin consectetur.
-          </p>
-        </div>
-      </li>
-      <li class="project-item">
-        <figure class="project-cover">
-          <img class="project-image" src="assets/img/circuito.png" alt="Electric Circuit">
-        </figure>
-        <div class="project-description">
-          <h2 class="project-title">
-            <a class="project-link" href="projeto.html">Electric Circuit</a>
-          </h2>
-          <p class="project-body">
-            Nesta página está disponível um projeto do primeiro semestre de Engenharia. Lorem ipsum
-            vel gravida adipiscing ante nibh fringilla, porta nostra egestas accumsan aenean dictumst odio ultrices,
-            netus nibh tempor sollicitudin consectetur.
-          </p>
-        </div>
-      </li>
-      <li class="project-item">
-        <figure class="project-cover">
-          <img class="project-image" src="assets/img/ambulante.png" alt="Entrepreneur">
-        </figure>
-        <div class="project-description">
-          <h2 class="project-title">
-            <a class="project-link" href="projeto.html">Entrepreneur</a>
-          </h2>
-          <p class="project-body">
-            Nesta página está disponível um projeto do primeiro semestre de Engenharia. Lorem ipsum
-            vel gravida adipiscing ante nibh fringilla, porta nostra egestas accumsan aenean dictumst odio ultrices,
-            netus nibh tempor sollicitudin consectetur.
-        </div>
-      </li>
+      {{/each}}
     </ul>
   </main>
 </body>
