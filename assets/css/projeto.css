@@ -1,5 +1,7 @@
 /* Projetos*/
-
+.corpo {
+	font-size: 1rem
+}
 .container_project{
 	background-color: #F2F2F2;
 	display: grid;
@@ -9,10 +11,11 @@
 	grid-auto-flow: row;
 	align-items: flex-start;
 	flex-direction:row;
-	font-size: 1rem;
+	font-size: 1.3rem;
 	text-align: center;
 	width: 80%;
 	padding: 0px 10%;
+	min-height: 100vh;
 }
 
 .item_imagem{
@@ -55,7 +58,7 @@
 	grid-column-end: 1;
 }
 
-.item_descricao{
+.item_descricao {
 	padding: 1rem;
 	margin: 1rem;
 	flex-grow: 1;
@@ -66,9 +69,12 @@
 	grid-column-end: 2;
 	align-items: flex-end;
 }
+.item_descricao .corpo {
+	text-align: justify
+}
 
-.title {
-	font-size: 1.75rem;
+h2.title {
+	font-size: 1.3rem;
 	color: #A6836F;
 }
 
@@ -79,7 +85,6 @@
 .item_title_project{
 	padding: 1rem;
 	margin: 1rem;
-	font-size: 4rem;
 	flex-grow: 1;
 	flex-shrink: 1;
 	grid-row-start: 1;
@@ -123,7 +128,6 @@
     flex-direction:row;
     font-size: 1.5rem;
     text-align: center;
-	/* min-width: 10rem; */
 	width: 100%;
 	padding:0px;
   }
