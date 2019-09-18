@@ -3,6 +3,8 @@
 
 <head>
   <title>Portifólio de projetos</title>
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/projeto.js"></script>
   <link href="assets/css/reset.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/projeto.css" rel="stylesheet">
@@ -14,19 +16,20 @@
   <header class="navbar">
     <a href="index.html" class="logo"><img src="https://picsum.photos/60/35?random" alt="Logo"></a>
     <ul class="navbar_items">
-      <li class="navbar_links"><a href="categoria.html">Físicos</a></li>
-      <li class="navbar_links"><a href="categoria.html">Virtuais</a></li>
+        {{#each portfolio}}
+        <li class="navbar_links"><a href="categoria.html?categoria={{@key}}">{{@key}}</a></li>
+        {{/each}}
     </ul>
   </header>
 
   <main class="container_project">
 
     <div class="item_title_project">
-      <h1 class=" title main_title">Girafa Mecânica</h1>
+      <h1 class=" title main_title">{{this.titulo}}</h1>
     </div>
 
     <figure class="item_imagem">
-      <a><img class="image_project" src="assets/img/girafa.png" alt="Girafa"></a>
+      <a><img class="image_project" src="assets/img/{{this.imagem}}" alt="{{this.titulo}}"></a>
     </figure>
 
     <div class="item_equipe">
@@ -34,14 +37,7 @@
         Equipe
       </h2>
       <p class="corpo">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut Olá esse texto é em um português riquíssimo de
-        acentos para demonstrar que falo português e não latim
-        labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      {{this.equipe}}
       </p>
     </div>
 
@@ -50,12 +46,7 @@
         Título
       </h2>
       <p class="corpo">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      {{this.titulo}}
       </p>
     </div>
 
@@ -64,12 +55,7 @@
         Descrição
       </h2>
       <p class="corpo">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        {{this.descricao}}
       </p>
     </div>
 
@@ -78,12 +64,7 @@
         Local
       </h2>
       <p class="corpo">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        {{this.local}}
       </p>
     </div>
 
@@ -92,12 +73,7 @@
         Recursos
       </h2>
       <p class="corpo">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        {{this.recursos}}
       </p>
     </div>
 
