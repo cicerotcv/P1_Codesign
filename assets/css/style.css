@@ -40,12 +40,18 @@
 	text-decoration: none;
 	font-family: 'Roboto Condensed';
 	color: white;
+	border: solid;
+	border-color: transparent;
 	border-radius: 0.2em 0.4em;
+	background-color:  #04ADBF;
 	width: fit-content;
+	transition: 0.5s;
 }
 
 .navbar_links a:hover, .button:hover {
-	background-color: #A67153; 
+	background-color: #A67153;
+	border-color: #F2F2F2;
+	
 }
 
 /* General Styles */
