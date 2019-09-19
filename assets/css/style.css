@@ -41,8 +41,10 @@
 	font-family: 'Roboto Condensed';
 	color: white;
 	border-radius: 0.2em 0.4em;
+	width: fit-content;
 }
-.navbar_links a:hover {
+
+.navbar_links a:hover, .button:hover {
 	background-color: #A67153; 
 }
 

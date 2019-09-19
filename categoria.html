@@ -36,7 +36,7 @@
       {{#each projetos}}
       <li class="project-item">
         <figure class="project-cover">
-          <img class="project-image" src="assets/img/{{this.imagem}}" alt="{{this.titulo}}">
+          <a href="projeto.html?categoria={{../categoria}}&key={{@key}}"><img class="project-image" src="assets/img/{{this.imagem}}" alt="{{this.titulo}}"></a>
         </figure>
         <div class="project-description">
           <h2 class="project-title">
