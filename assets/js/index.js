@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   db.download('/', function(data) {
 
+    let new_data = {
+      
+    }
     // for(let key in data){
     //   console.log(key)
       console.log(data)

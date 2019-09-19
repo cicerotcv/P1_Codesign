@@ -17,7 +17,7 @@
     <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="Logo"></a>
     <ul class="navbar_items">
       {{#each portfolio}}
-      <li class="navbar_links"><a href="categoria.html?categoria={{@key}}">{{@key}}</a></li>
+      <li class="navbar_links"><a href="categoria.html?categoria={{@key}}">{{this.categoria}}</a></li>
       {{/each}}
     </ul>
   </header>

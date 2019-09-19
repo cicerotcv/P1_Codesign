@@ -5,7 +5,7 @@
 	display: grid;
 	background-color: #F2F2F2;
 	grid-template-columns: 1fr 80% 1fr;
-	grid-template-rows: fit-content 1fr;
+	grid-template-rows: fit-content fit-content;
 	grid-gap: 1em;
 	min-height: 100vh;
 	padding-bottom: 3em;

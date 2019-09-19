@@ -35,14 +35,15 @@
 
 .navbar_links a {
 	margin: 1em;
-	padding:0.2em;
+	padding:0.3em;
 	font-size: 1.3rem;
 	text-decoration: none;
 	font-family: 'Roboto Condensed';
-	border: solid #F2F2F2;
-	background-color: #04ADBF;
-	border-radius: 0.2em 0.4em;
 	color: white;
+	border-radius: 0.2em 0.4em;
+}
+.navbar_links a:hover {
+	background-color: #A67153; 
 }
 
 /* General Styles */
